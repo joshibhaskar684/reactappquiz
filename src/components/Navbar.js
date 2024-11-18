@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav class="nav flecx  ">
         <div class="nav1 flecx">
-        <img className="navimg flecx" src="/2.png" alt="Navbar Logo" />
+        <img className="navimg flecx" src=src={process.env.PUBLIC_URL + '/2.png'} alt="Navbar Logo" />
             <div class="nav11 flecx">
                 <p>Quiz App</p>
             </div>
